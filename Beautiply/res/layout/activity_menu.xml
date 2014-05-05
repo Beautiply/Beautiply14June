@@ -1,0 +1,655 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/com.cmcdelhi.beautiply"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity" >
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/seprator2"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/transparent" />
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:id="@+id/dizzyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Beautiply"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="40sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/seprator2"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/transparent" />
+
+        <ScrollView
+            android:id="@+id/ThirdscrScrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/seprator2"
+            android:background="@android:color/transparent" >
+
+            <LinearLayout
+                android:id="@+id/myLinearlay21"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/myview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <RelativeLayout
+                        android:id="@+id/relativelayout49"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" >
+
+                        <FrameLayout
+                            android:id="@+id/thirdscrframelayout77"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/alarms1" >
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/moving"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/thirdscrframelayout77"
+                            android:padding="5dp"
+                            android:text="Move to schedule wallpaper change time."
+                            android:textColor="@android:color/white"
+                            android:textSize="20dp" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/relativelayout49"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:id="@+id/mylinearlay22"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:orientation="horizontal" >
+
+                            <FrameLayout
+                                android:id="@+id/thirdscrframelayout1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/alarms1"
+                                android:visibility="invisible" >
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:id="@+id/thirdscrframelayout2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/data"
+                                android:visibility="invisible" >
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:id="@+id/thirdscrframelayout3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/alarms1"
+                                android:visibility="invisible" >
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:id="@+id/thirdscrframelayout4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/data"
+                                android:visibility="invisible" >
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:id="@+id/thirdscrframelayout5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/alarms1"
+                                android:visibility="invisible" >
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:id="@+id/thirdscrframelayout6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/data"
+                                android:visibility="invisible" >
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:id="@+id/thirdscrframelayout7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/alarms1"
+                                android:visibility="invisible" >
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:id="@+id/thirdscrframelayout8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/go"
+                                android:visibility="invisible" >
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:id="@+id/thirdscrframelayout9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/go"
+                                android:visibility="invisible" >
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:id="@+id/thirdscrframelayout10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/unlock"
+                                android:visibility="invisible" >
+                            </FrameLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/mylinearlay23"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <SeekBar
+                                android:id="@+id/seekBar1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:background="@android:color/transparent"
+                                android:max="100"
+                                android:progressDrawable="@drawable/seekbar_progress1"
+                                android:thumb="@drawable/myshape" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/mylinearlay24"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3" >
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true" >
+
+                                    <TextView
+                                        android:id="@+id/mytextview47"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="5dp"
+                                        android:text="1"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="60sp" />
+
+                                    <TextView
+                                        android:id="@+id/mytextview48"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:padding="5dp"
+                                        android:text="Hour"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="22sp" />
+                                </LinearLayout>
+                            </RelativeLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" >
+
+                                <TextView
+                                    android:id="@+id/Thirdscrtextview35"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:text="Changing wallpaper frequently  may cause unnecessary data and battery data usage"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="10sp" />
+                            </FrameLayout>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/Thirdscrseprator56"
+                            android:layout_width="fill_parent"
+                            android:layout_height="2dp"
+                            android:background="@android:color/transparent" />
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" >
+
+                                <RelativeLayout
+                                    android:id="@+id/Linearlayput5"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content" >
+
+                                    <TextView
+                                        android:id="@+id/Thirdscrtv2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true"
+                                        android:text="Beautiply Shakes"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="35sp" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" >
+
+                                <RelativeLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content" >
+
+                                    <ImageView
+                                        android:id="@+id/imgview123"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_centerVertical="true"
+                                        android:background="@drawable/screen" />
+
+                                    <TextView
+                                        android:id="@+id/Thirdscrnewtxtview2"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_toRightOf="@+id/imgview123"
+                                        android:text="Shake your phone to change the wallpaper !"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="20dp" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+                            <!--
+                                <com.cmcdelhi.beautiply.Switch
+                                android:id="@+id/btn_on_off"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                app:textLeft="@string/on"
+                                app:textRight="@string/off" />
+                            -->
+
+                            <RelativeLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="100dp"
+                                android:layout_weight="3" >
+
+                                <SeekBar
+                                    android:id="@+id/shakeSeekBar"
+                                    android:layout_width="45dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@android:color/transparent"
+                                    android:max="100"
+                                    android:progressDrawable="@drawable/seekbar_progress1"
+                                    android:thumb="@drawable/myshape" />
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/Thirdscrnewtxtview"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/Thirdscrtv2"
+                                    android:padding="5dp"
+                                    android:text="Not happy with the current wallpaper ? Beautiply  can simply decorate your phone with fresh wallpaper on every shake.Switch it ON will start Beautiply Shakes!  "
+                                    android:textColor="@android:color/white"
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/Thirdscrseprator57"
+                            android:layout_width="fill_parent"
+                            android:layout_height="2dp"
+                            android:background="@android:color/transparent" />
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout44"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" >
+
+                                <RelativeLayout
+                                    android:id="@+id/Linearlayput55"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content" >
+
+                                    <TextView
+                                        android:id="@+id/Thirdscrtv22"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true"
+                                        android:text="Starred Images"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="35sp" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" >
+
+                                <RelativeLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content" >
+
+                                    <ImageView
+                                        android:id="@+id/imgview123"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_centerVertical="true"
+                                        android:layout_marginTop="5dp"
+                                        android:background="@drawable/starwhite" />
+
+                                    <TextView
+                                        android:id="@+id/Thirdscrnewtxtview22"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_toRightOf="@+id/imgview123"
+                                        android:text="Sets only those wallpapers which you have starred."
+                                        android:textColor="@android:color/white"
+                                        android:textSize="20dp" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="50dp"
+                                android:layout_weight="2" >
+
+                                <ImageView
+                                    android:id="@+id/starimage1111"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/starbigempty" />
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/Thirdscrnewtxtview111"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/Thirdscrtv22"
+                                    android:padding="5dp"
+                                    android:text="Star the wallpaper you like and click this big star.Next time Beautiply will only set starred wallpapers."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/Thirdscrseprator4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="2dp"
+                            android:background="@android:color/transparent" />
+
+                        <LinearLayout
+                            android:id="@+id/ThirdscrLL3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <RelativeLayout
+                                android:id="@+id/ThirdscrLL3_1"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/ThirdscrLL3_1_1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center|center_vertical"
+                                    android:text="Write to us"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="35sp" />
+
+                                <TextView
+                                    android:id="@+id/mytextview1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_below="@+id/ThirdscrLL3_1_1"
+                                    android:maxLines="0"
+                                    android:padding="5dp"
+                                    android:text="If any producer or label has an issue with any of the images please get in contact (info@cmcdelhi.com).The images used in the application may contain explicit content."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/Thirdscrseprator5"
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:background="@android:color/transparent" />
+
+                            <RelativeLayout
+                                android:id="@+id/ThirdscrLL3_2"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/ThirdscrLL3_1_2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center|center_vertical"
+                                    android:text="Privacy policies"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="35sp" />
+
+                                <TextView
+                                    android:id="@+id/mytextview2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_below="@+id/ThirdscrLL3_1_2"
+                                    android:maxLines="0"
+                                    android:padding="5dp"
+                                    android:text="Information collected through this application is kept confidential and is not passed to third party organizations for marketing or promotional purposes.
+If you supply us with your email address you may receive occasional emails from us relating to the services we provide. If you do not wish to receive such e-mails
+     please inform us at info@cmdelhi.com and you will not receive any future emails from us.
+Due to overcautious spam filters, our email might not always reach you. To ensure that our enquiries are served diligently, we send a follow-up email 
+     (ashish.arora@cmcdelhi.com) in case we do not receive a read report or a reply to our email. "
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/Thirdscrseprator6"
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:background="@android:color/transparent" />
+
+                            <RelativeLayout
+                                android:id="@+id/ThirdscrLL3_3"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/ThirdscrLL3_1_3"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center|center_vertical"
+                                    android:text="Terms of use"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="35sp" />
+
+                                <TextView
+                                    android:id="@+id/mytextview3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_below="@+id/ThirdscrLL3_1_3"
+                                    android:maxLines="0"
+                                    android:padding="5dp"
+                                    android:text="The images used in the application may contain explicit content.All the images supplied by the application are the copyright property of their respective owner.CMC is not resposible for any copyright issues."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/Thirdscrseprator7"
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:background="@android:color/transparent" />
+
+                            <RelativeLayout
+                                android:id="@+id/ThirdscrLL3_4"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/ThirdscrLL3_1_4_1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center|center_vertical"
+                                    android:text="About"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="35sp" />
+
+                                <TextView
+                                    android:id="@+id/mytextview4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_below="@+id/ThirdscrLL3_1_4_1"
+                                    android:maxLines="0"
+                                    android:padding="5dp"
+                                    android:text="Beautiply is an experimental wallpaper manager app.It reduces the complexity of user to pick and set wallpaper.It simply picks most popular pictures from the internet and sets them as your device wallpaper without any need to download,crop and set.Beautiply has been developed at CMC Delhi,New Delhi,India to simplify the wallpaper management of your android device.Help us to improve simply by your likes and comments.Project Beautiply Developers \n Gufran Khurshid(Team Leader) \n Sumit Gupta and Abhinav Gupta.
+                                "
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/Thirdscrseprator8"
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:background="@android:color/transparent" />
+
+                            <RelativeLayout
+                                android:id="@+id/ThirdscrLL3_5"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/ThirdscrLL3_1_5"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center|center_vertical"
+                                    android:text="About CMC Delhi"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="35sp" />
+
+                                <TextView
+                                    android:id="@+id/mytextview5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_below="@+id/ThirdscrLL3_1_5"
+                                    android:maxLines="0"
+                                    android:padding="5dp"
+                                    android:text="CMC is committed to the highest standards of corporate governance and social responsibility. Rooted in theTata group&apos;s long history of putting people before profits and policy of leadership with trust, CMC believes in being ethical and fair in its business dealings with all stakeholders -- employees, customers, partners, investors and the community.
+With 18 offices, 150 service locations, 520 non-resident locations and over 3,800 employees worldwide, we provide a wide spectrum of unique Information Technology solutions and services to a clientele of premier organisations in the government and private sectors. CMC Americas, our subsidiary, services clients in the US, while our branch offices in the UK and Dubai market our products and services in Europe, Africa and the Middle East.
+Since its incorporation in 1975, CMC has an enviable record of successfully building IT solutions for massive and complex infrastructure and market projects CMC&apos;s customer orientation and service culture lead to enduring bonds with clients. Its distinct value proposition and service culture, coupled with our track record of successful service delivery, are reflected in long-standing customer relationships with dominant players in key infrastructure, services and government sectors.Its customers include some of the biggest organisations in India: Reserve Bank of India, Indian Railways, Indian Oil Corporation Limited, Bharat Petroleum Corporation Limited, Oil and Natural Gas Corporation Limited, United Western Bank, Bank of India and Bank of Baroda.
+Three of the many major projects undertaken by CMC Limited A passenger ticketing and reservations system for Indian Railways, which runs 6,000 passenger trains carrying over 10 million passengers a day, on a 90,000-km railway network covering around 8,000 railway stations. A cargo handling system is a comprehensive online real time cargo handling system to integrate all complex and varied activities of container terminals. This system has been implemented for several Indian and International ports. An online transaction processing system for the Bombay Stock Exchange, which handles millions of securities trading transactions every day."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
