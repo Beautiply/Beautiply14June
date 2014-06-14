@@ -195,7 +195,8 @@
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" >
+                        android:layout_height="wrap_content"
+                        android:padding="15dp" >
 
                         <TextView
                             android:id="@+id/goBeautipliedDescription"
@@ -231,7 +232,11 @@
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" >
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:paddingTop="5dp" >
 
                         <ImageView
                             android:id="@+id/zeroActivityImageB"
@@ -244,7 +249,8 @@
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" >
+                        android:layout_height="wrap_content"
+                        android:padding="5dp" >
 
                         <TextView
                             android:id="@+id/editorsPick"
@@ -349,7 +355,11 @@
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" >
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:paddingTop="5dp" >
 
                         <ImageView
                             android:id="@+id/zeroActivityImageD"
@@ -362,7 +372,8 @@
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" >
+                        android:layout_height="wrap_content"
+                        android:padding="5dp" >
 
                         <TextView
                             android:id="@+id/trending"

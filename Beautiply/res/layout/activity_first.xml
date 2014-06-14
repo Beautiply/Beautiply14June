@@ -37,7 +37,8 @@
                 android:layout_centerVertical="true"
                 android:text="Beautiply"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textSize="40sp" />
+                android:textSize="40sp"
+                android:paddingLeft="15dp" />
 
             <ImageView
                 android:id="@+id/imgRefresh"
@@ -132,10 +133,10 @@
                         <RelativeLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_marginLeft="2dp"
-                            android:layout_marginRight="1dp"
-                            android:layout_marginTop="1dp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="6dp"
                             android:layout_weight="1" >
 
                             <FrameLayout
@@ -167,10 +168,10 @@
                         <RelativeLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_marginLeft="1dp"
-                            android:layout_marginRight="2dp"
-                            android:layout_marginTop="1dp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="6dp"
+                            android:layout_marginTop="6dp"
                             android:layout_weight="1" >
 
                             <FrameLayout
@@ -208,10 +209,10 @@
                         <RelativeLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_marginLeft="2dp"
-                            android:layout_marginRight="1dp"
-                            android:layout_marginTop="1dp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="3dp"
                             android:layout_weight="1" >
 
                             <FrameLayout
@@ -243,10 +244,10 @@
                         <RelativeLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_marginLeft="1dp"
-                            android:layout_marginRight="2dp"
-                            android:layout_marginTop="1dp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="6dp"
+                            android:layout_marginTop="3dp"
                             android:layout_weight="1" >
 
                             <FrameLayout
@@ -284,10 +285,10 @@
                         <RelativeLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_marginLeft="2dp"
-                            android:layout_marginRight="1dp"
-                            android:layout_marginTop="1dp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="3dp"
                             android:layout_weight="1" >
 
                             <FrameLayout
@@ -319,10 +320,10 @@
                         <RelativeLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_marginLeft="1dp"
-                            android:layout_marginRight="2dp"
-                            android:layout_marginTop="1dp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="6dp"
+                            android:layout_marginTop="3dp"
                             android:layout_weight="1" >
 
                             <FrameLayout
@@ -360,10 +361,10 @@
                         <RelativeLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_marginLeft="2dp"
-                            android:layout_marginRight="1dp"
-                            android:layout_marginTop="1dp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="3dp"
                             android:layout_weight="1" >
 
                             <FrameLayout
@@ -395,10 +396,10 @@
                         <RelativeLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_marginLeft="1dp"
-                            android:layout_marginRight="2dp"
-                            android:layout_marginTop="1dp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="6dp"
+                            android:layout_marginTop="6dp"
                             android:layout_weight="1" >
 
                             <FrameLayout
@@ -436,10 +437,10 @@
                         <RelativeLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_marginLeft="2dp"
-                            android:layout_marginRight="1dp"
-                            android:layout_marginTop="1dp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="3dp"
                             android:layout_weight="1" >
 
                             <FrameLayout
@@ -471,10 +472,10 @@
                         <RelativeLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="1dp"
-                            android:layout_marginLeft="1dp"
-                            android:layout_marginRight="2dp"
-                            android:layout_marginTop="1dp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="6dp"
+                            android:layout_marginTop="3dp"
                             android:layout_weight="1" >
 
                             <FrameLayout
