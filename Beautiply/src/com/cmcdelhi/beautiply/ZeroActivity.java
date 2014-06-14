@@ -76,6 +76,8 @@ public class ZeroActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_zero);
+		
+		overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
 
 		// beautiply utility object
 		bu = new BeautiplyUtility(getBaseContext());

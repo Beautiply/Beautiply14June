@@ -2598,6 +2598,7 @@ public class FirstActivity extends Activity {
 						+ "");
 		ForthActivity.fullScreenImageUrl = BeautifyGridHolder.urlSecond;
 		startActivity(i);
+		overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
 	}
 
 	public void openkaro3(View v) {
@@ -2608,6 +2609,7 @@ public class FirstActivity extends Activity {
 						+ "");
 		ForthActivity.fullScreenImageUrl = BeautifyGridHolder.urlThird;
 		startActivity(i);
+		overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
 	}
 
 	public void openkaro4(View v) {
@@ -2619,6 +2621,7 @@ public class FirstActivity extends Activity {
 		ForthActivity.fullScreenImageUrl = BeautifyGridHolder.urlFourth;
 
 		startActivity(i);
+		overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
 	}
 
 	public void openkaro5(View v) {
@@ -2630,6 +2633,7 @@ public class FirstActivity extends Activity {
 		ForthActivity.fullScreenImageUrl = BeautifyGridHolder.urlFifth;
 
 		startActivity(i);
+		overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
 	}
 
 	public void openkaro6(View v) {
@@ -2650,6 +2654,7 @@ public class FirstActivity extends Activity {
 						+ "");
 		ForthActivity.fullScreenImageUrl = BeautifyGridHolder.urlSeventh;
 		startActivity(i);
+		overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
 	}
 
 	public void openkaro8(View v) {
@@ -2660,6 +2665,7 @@ public class FirstActivity extends Activity {
 						+ "");
 		ForthActivity.fullScreenImageUrl = BeautifyGridHolder.urlEight;
 		startActivity(i);
+		overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
 	}
 
 	public void openkaro9(View v) {
@@ -2670,6 +2676,7 @@ public class FirstActivity extends Activity {
 						+ "");
 		ForthActivity.fullScreenImageUrl = BeautifyGridHolder.urlNinth;
 		startActivity(i);
+		overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
 	}
 
 	public void openkaro10(View v) {
@@ -2680,6 +2687,7 @@ public class FirstActivity extends Activity {
 						+ "");
 		ForthActivity.fullScreenImageUrl = BeautifyGridHolder.urlTenth;
 		startActivity(i);
+		overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
 	}
 
 	// public void onWork(View v) {

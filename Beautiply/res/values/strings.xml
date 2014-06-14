@@ -20,5 +20,6 @@
     <string name="unchecked">unchecked</string>
     <string name="title_activity_zero">Beautiply</string>
     <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_beautiply_splash_screen">BeautiplySplashScreenActivity</string>
 
 </resources>
