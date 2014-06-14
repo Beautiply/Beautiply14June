@@ -445,7 +445,7 @@ public class BeautiplyAsyncTask extends AsyncTask<String, Void, String> {
 					Drawable d = new BitmapDrawable(context.getResources(),
 							beautyImage);
 					// Check if we're running on GingerBread or above
-					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 						FirstActivity.img1.setBackground(d);
 					} else {
 						FirstActivity.img1.setBackgroundDrawable(d);
@@ -484,7 +484,7 @@ public class BeautiplyAsyncTask extends AsyncTask<String, Void, String> {
 					Drawable d = new BitmapDrawable(context.getResources(),
 							beautyImage);
 					// Check if we're running on GingerBread or above
-					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 						FirstActivity.img2.setBackground(d);
 					} else {
 						FirstActivity.img2.setBackgroundDrawable(d);
@@ -522,7 +522,7 @@ public class BeautiplyAsyncTask extends AsyncTask<String, Void, String> {
 					Drawable d = new BitmapDrawable(context.getResources(),
 							beautyImage);
 					// Check if we're running on GingerBread or above
-					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 						FirstActivity.img3.setBackground(d);
 					} else {
 						FirstActivity.img3.setBackgroundDrawable(d);
@@ -559,7 +559,7 @@ public class BeautiplyAsyncTask extends AsyncTask<String, Void, String> {
 					Drawable d = new BitmapDrawable(context.getResources(),
 							beautyImage);
 					// Check if we're running on GingerBread or above
-					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 						FirstActivity.img4.setBackground(d);
 					} else {
 						FirstActivity.img4.setBackgroundDrawable(d);
@@ -601,7 +601,7 @@ public class BeautiplyAsyncTask extends AsyncTask<String, Void, String> {
 					BeautifyGridHolder.urlFifth = currentUrl;
 
 					// Check if we're running on GingerBread or above
-					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 						FirstActivity.img5.setBackground(d);
 					} else {
 						FirstActivity.img5.setBackgroundDrawable(d);
@@ -635,7 +635,7 @@ public class BeautiplyAsyncTask extends AsyncTask<String, Void, String> {
 					Drawable d = new BitmapDrawable(context.getResources(),
 							beautyImage);
 					// Check if we're running on GingerBread or above
-					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 						FirstActivity.img6.setBackground(d);
 					} else {
 						FirstActivity.img6.setBackgroundDrawable(d);
@@ -673,7 +673,7 @@ public class BeautiplyAsyncTask extends AsyncTask<String, Void, String> {
 					Drawable d = new BitmapDrawable(context.getResources(),
 							beautyImage);
 					// Check if we're running on GingerBread or above
-					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 						FirstActivity.img7.setBackground(d);
 					} else {
 						FirstActivity.img7.setBackgroundDrawable(d);
@@ -711,7 +711,7 @@ public class BeautiplyAsyncTask extends AsyncTask<String, Void, String> {
 					Drawable d = new BitmapDrawable(context.getResources(),
 							beautyImage);
 					// Check if we're running on GingerBread or above
-					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 						FirstActivity.img8.setBackground(d);
 					} else {
 						FirstActivity.img8.setBackgroundDrawable(d);
@@ -749,7 +749,7 @@ public class BeautiplyAsyncTask extends AsyncTask<String, Void, String> {
 					Drawable d = new BitmapDrawable(context.getResources(),
 							beautyImage);
 					// Check if we're running on GingerBread or above
-					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 						FirstActivity.img9.setBackground(d);
 					} else {
 						FirstActivity.img9.setBackgroundDrawable(d);
@@ -792,7 +792,7 @@ public class BeautiplyAsyncTask extends AsyncTask<String, Void, String> {
 					BeautifyGridHolder.urlTenth = currentUrl;
 
 					// Check if we're running on GingerBread or above
-					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 						FirstActivity.img10.setBackground(d);
 					} else {
 						FirstActivity.img10.setBackgroundDrawable(d);
@@ -841,7 +841,7 @@ public class BeautiplyAsyncTask extends AsyncTask<String, Void, String> {
 					Drawable d = new BitmapDrawable(context.getResources(),
 							beautyImage);
 					// Check if we're running on GingerBread or above
-					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 						ZeroActivity.zeroActivityImageA.setBackground(d);
 					} else {
 						ZeroActivity.zeroActivityImageA
@@ -857,7 +857,7 @@ public class BeautiplyAsyncTask extends AsyncTask<String, Void, String> {
 					Drawable d = new BitmapDrawable(context.getResources(),
 							beautyImage);
 					// Check if we're running on GingerBread or above
-					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 						ZeroActivity.zeroActivityImageB.setBackground(d);
 					} else {
 						ZeroActivity.zeroActivityImageB
@@ -873,7 +873,7 @@ public class BeautiplyAsyncTask extends AsyncTask<String, Void, String> {
 					Drawable d = new BitmapDrawable(context.getResources(),
 							beautyImage);
 					// Check if we're running on GingerBread or above
-					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 						ZeroActivity.zeroActivityImageC.setBackground(d);
 					} else {
 						ZeroActivity.zeroActivityImageC
@@ -889,7 +889,7 @@ public class BeautiplyAsyncTask extends AsyncTask<String, Void, String> {
 					Drawable d = new BitmapDrawable(context.getResources(),
 							beautyImage);
 					// Check if we're running on GingerBread or above
-					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 						ZeroActivity.zeroActivityImageD.setBackground(d);
 					} else {
 						ZeroActivity.zeroActivityImageD
